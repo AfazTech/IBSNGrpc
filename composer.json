@@ -1,6 +1,6 @@
 {
-    "name": "imafaz/afaztech",
-    "description": "IBSng xml rpc api",
+    "name": "afaztech/ibsngrpc",
+    "description": "IBSng API XML-RPC client for PHP",
     "type": "library",
     "version": "1.0.0",
     "license": "MIT",
@@ -9,10 +9,10 @@
         "ibsng api",
         "ibsng xml rpc",
         "php ibsng api"
-        ],
+    ],
     "autoload": {
         "psr-4": {
-            "IBSngrpc\\": "src/"
+            "IBSNGrpc\\": "src/"
         }
     },
     "homepage": "https://github.com/afaztech/IBSngrpc",
@@ -24,7 +24,9 @@
         }
     ],
     "require": {
-        "php-64bit": ">=7.4"
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-xmlrpc": "*"
     },
     "minimum-stability": "stable"
 }
