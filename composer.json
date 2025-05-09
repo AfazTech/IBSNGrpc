@@ -2,7 +2,6 @@
     "name": "afaztech/ibsngrpc",
     "description": "IBSng API XML-RPC client for PHP",
     "type": "library",
-    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "ibsng",
